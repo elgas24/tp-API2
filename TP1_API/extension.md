@@ -1,39 +1,39 @@
 TP2
 
 Sélectionnez la méthode GET.
-Entrez l'URL suivante :
+Entrez cet URL:
 https://jsonplaceholder.typicode.com/comments
-Cliquez sur Send.
+Envoyez la requête.
 Résultat : Vous recevrez une liste de tous les commentaires.
 
-2. Requête POST sur les todos
-Créer une nouvelle tâche dans les "todos".
+2. faire un POST sur les todos
+Création d'une tâche "todos".
 Sélectionnez la méthode POST.
 Entrez l'URL suivante :
 https://jsonplaceholder.typicode.com/todos
 
-Dans l'onglet Body, choisir x-www-form-urlencoded.
+Dans le Body, choisir x-www-form-urlencoded.
 Ajoutez les champs :
 title	Ma tâche
 completed	false
 userId	1
 
-Cliquez sur Send.
+ Et envoyer la requête.
 
-Résultat : Une réponse contenant l'objet créé avec un identifiant généré.
+Résultat : Une réponse affirmant la création de l'objet avec un identifiant auto-généré.
 
-3. Requête PATCH sur les posts
-Modifier un post existant (changer le title et le body).
+3. Requête PATCH 
+Modifier le post existant (modifier title et body).
 Sélectionnez la méthode PATCH.
 Entrez l'URL suivante :
 https://jsonplaceholder.typicode.com/posts/1
-Dans l'onglet Body, choisir raw et sélectionner le format JSON.
+Dans body, choisir raw et sélectionner le format JSON.
 Ajoutez le contenu :
 {
   "title": "Titre mis à jour",
   "body": "Contenu mis à jour"
 }
-Cliquez sur Send.
+Envoyer la requête 
 Résultat : Vous recevrez l'objet mis à jour.
 
 4. Requête GET : commentaires associés au post 1
